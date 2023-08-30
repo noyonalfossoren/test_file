@@ -1,0 +1,172 @@
+.mybutton{
+    height: 50px;
+    width: 100px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 9px 9px 20px 0px rgba(0, 128, 0, 0.534);
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    margin: 0px 20px;
+    background: rgba(0, 128, 0, 0.795);
+}
+.anim{
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 9px 9px 20px 0px rgb(104, 255, 4, 0.637);
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    margin: 0px 20px;
+}
+
+
+ 
+header{
+    background: linear-gradient(45deg, red, blue);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+ .userIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 200px;
+    z-index: 1;
+    transform: rotate(-45deg) !important ;
+ }
+.userIcon i{
+    color: rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0.575);
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    border-left: 5px solid white;
+    border-top: 5px solid rgb(0, 0, 0);
+    border-bottom: 5px solid white;
+    border-right: 5px solid rgb(0, 0, 0);
+    transform: rotate(45deg) !important;
+}
+ .form{
+    position: relative;
+    top: 150px;
+    height: 400px;
+    width: 350px;
+    margin: auto;
+    box-shadow: 3px 5px 10px 0px rgba(0, 0, 0, 0.205);
+    background: rgba(0, 0, 0, 0.205);
+    backdrop-filter: blur(50px);
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+    /* /* justify-content: space-around; */
+    align-items: center;
+    border-radius: 10px;
+    
+ }
+ .name{
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(86, 139, 24);
+    margin: 50px 0px 0px 0px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    position: relative;
+    top: 30px;
+    left: 0px;
+   
+ }
+ .name label i{
+    position: relative;
+    top: 4px;
+    left: 40px;
+ }
+.name label input{
+    outline: none;
+    height: 25px;
+    border: 1px solid forestgreen;
+    border-radius: 5px;
+    width: 230px;
+    height: 50px;
+    padding-left: 50px;
+    z-index: 0;
+}
+.email{
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(86, 139, 24);
+    margin: 50px 0px 0px 0px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    position: relative;
+    top: -10px;
+    left: 0px;
+ }
+ .email label i{
+    position: relative;
+    top: 4px;
+    left: 40px;
+ }
+.email label input{
+    outline: none;
+    height: 25px;
+    border: 1px solid forestgreen;
+    border-radius: 5px;
+    width: 230px;
+    height: 50px;
+    padding-left: 50px;
+    z-index: 0;
+}
+.password{
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(86, 139, 24);
+    margin: 50px 0px 0px 0px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    position: relative;
+    top: -30px;
+    left: 0px;
+ }
+
+.password label input{
+    outline: none;
+    height: 25px;
+    border: 1px solid rgb(34, 45, 139);
+    border-radius: 5px;
+    width: 230px;
+    height: 50px;
+    padding-left: 50px;
+    z-index: 0;
+    
+}
+.password label i{
+    position: relative;
+    top: 4px;
+    left: 40px;
+ }
+ .submit input{
+    width: 300px;
+    height: 50px;
+    border: none;
+    margin-left: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 8px 3px rgba(0, 0, 0, 0.205);
+    background: linear-gradient(-150deg, red, blue);
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+ }
